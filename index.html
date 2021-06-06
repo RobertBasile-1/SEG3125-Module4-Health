@@ -91,17 +91,17 @@
                     <img src="assets/doctor1.PNG" height="200px">
 
                     <p style=" font-size: 22px;">
-                        <b style="font-size: 32px;">Doctor Sammy Birdadi</b> <br> Registered Physiotherapist who graduated from the University Of Ottawa and specializes mostly in shockwave therapy</p>
+                        <b style="font-size: 32px;">Doctor Sammy Birdadi</b> <br> Registered Physiotherapist who graduated from the University Of Ottawa and specializes in shockwave therapy</p>
                 </div>
 
                 <div class="col-md">
                     <img src="assets/doctor2.PNG" height="200px">
-                    <p style=" font-size: 22px;"><b style="font-size: 32px;">Doctor Ilnius Kalfoni</b> <br> Registered Physiotherapist who graduated from the University Of McGill and specializes mostly in concussion therapy </p>
+                    <p style=" font-size: 22px;"><b style="font-size: 32px;">Doctor Ilnius Kalfoni</b> <br> Registered Physiotherapist who graduated from the University Of McGill and specializes in concussion therapy </p>
                 </div>
 
                 <div class="col-md">
                     <img src="assets/doctor3.PNG" height="200px">
-                    <p style=" font-size: 22px;"><b style="font-size: 32px;">Doctor Patrick Barki</b> <br> Registered Physiotherapist who graduated from the University Of Toronto and enjoys mostly focuses in on Massages and custom insoles creation</p>
+                    <p style=" font-size: 22px;"><b style="font-size: 32px;">Doctor Patrick Barki</b> <br> Registered Physiotherapist who graduated from the University Of Toronto and specializes in massages and custom insoles creation</p>
                 </div>
             </div>
 
@@ -123,7 +123,7 @@
                         <!--https://www.care2curephysiotherapy.com/-->
                         <img src="assets/concussion.png">
                         <p style="font-weight: 900; font-size: 32px; color: #0ab04e;">Concussion</p>
-                        <p style="text-align: left; font-size: 20px;">Therapy involving the vestibular system the inner ear and its connection with the brain. Our proffessionals will do a precise assesment on full re habu</p>
+                        <p style="text-align: left; font-size: 20px;">Therapy involving the vestibular system the inner ear and its connection with the brain. Our proffessionals will do a precise assesment on full rehabilitation</p>
                     </div>
 
                     <div class="col-sm g">
@@ -160,56 +160,57 @@
     </div>
 
     <!--Booking page-->
-    <div id="contactForm">
-        <div class="container-fluid">
-
-            <div class="row F">
-                <div class="col-sm F">
-                    <form>
-
-                        <div class="form-group">
-                            <label for="First_Name " class="textParTopic grey_text ">First Name</label>
-                            <input type="text" class=" textPar form-control" id="first_name" aria-describedby="firstName" placeholder="Enter First Name">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="last_Name " class="textParTopic grey_text">Last Name</label>
-                            <input type="text" class=" textPar form-control" id="last_Name" placeholder="Enter Last Name">
-                        </div>
 
 
-                        <label for="exampleFormControlSelect1" class="textParTopic grey_text mt-3">What is your Appointment For</label>
-                        <select class="form-control textPar" id="exampleFormControlSelect1">
-                        <option>Shockwave Therapy</option>
-                        <option>Neurac Therapy</option>
-                        <option>RAPID Therapy</option>
-                        <option>ONDAMED</option>
-                        <option>Deep Oscillation Therapy</option>
-                    </select>
+    <div class="container-lg">
+        <div class="row F">
+            <div class="col-sm F">
+                <form>
 
-                        <div class="form-group">
-                            <label for="dateAndTime " class="textParTopic grey_text">Appointment Date and Time</label>
-                            <input type="datetime-local" class=" textPar form-control" id="exampleInputEmail1" placeholder="Enter email">
-                        </div>
+                    <div class="form-group">
+                        <label for="First_Name " class="textParTopic grey_text  mt-3" style="margin-bottom: 1%;">First Name</label>
+                        <input type="text" class=" textPar form-control" id="first_name" aria-describedby="firstName" placeholder="Enter First Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last_Name " class="textParTopic grey_text mt-3" style="margin-bottom: 1%;">Last Name</label>
+                        <input type="text" class=" textPar form-control" id="last_Name" placeholder="Enter Last Name">
+                    </div>
+
+                    <label for="exampleFormControlSelect1" class="textParTopic grey_text mt-3" style="margin-bottom: 1%;">Select one of the following services</label>
+                    <select class="form-control " id="exampleFormControlSelect1">
+                            <option></option>
+                            <option>Concussion Therapy</option>
+                            <option>Massage Therapy</option>
+                            <option>TMJ Therapy</option>
+                            <option>Shockwave Therapy</option>
+                            <option>Custom Insoles</option>
+                        </select>
+
+                    <div class="form-group">
+                        <label for="dateAndTime " class="textParTopic grey_text mt-3" style="margin-bottom: 1%;">Appointment Date and Time</label>
+                        <input type="datetime-local" class=" textPar form-control" id="exampleInputEmail1" placeholder="Enter email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email " class="textParTopic grey_text mt-3" style="margin-bottom: 1%;">Phone Number</label>
+                        <input type="tel" class=" textPar form-control" id="exampleInputEmail1" placeholder="(123)-456-7890">
+                    </div>
+                    <br>
 
 
+                    <button id="book-btn" class="btn btn-primary"> Book Appointment</button>
 
-
-                        <div class="form-group">
-                            <label for="email " class="textParTopic grey_text">Phone Number</label>
-                            <input type="tel" class=" textPar form-control" id="exampleInputEmail1" placeholder="Enter Phone Number">
-                        </div>
-
-
-
-                        <button id="" class=" mt-3 submitButton text-center textParTopic"> Book Appointment</button>
-                    </form>
-                </div>
-
+                </form>
             </div>
-
+            <div class="col-lg">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9934156840995!2d-75.77081188444646!3d45.34894517909969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0725cabc2f75%3A0xe426f156dba85857!2s1125%20Baseline%20Rd%2C%20Nepean%2C%20ON%20K2G%206E2!5e0!3m2!1sen!2sca!4v1623000029668!5m2!1sen!2sca"
+                    width="600" height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
         </div>
     </div>
+
+
 
     <button type="button" id="warning" class="btn btn-warning">Back to Top</button>
 

@@ -148,17 +148,39 @@ a.nav-link:hover a {
 
 .row.F {
     padding: 14px 16px;
-    width: 50%;
-    max-width: 50%;
+    width: 100%;
+    max-width: 100%;
     text-align: left;
     font-size: 22px;
     align-items: left;
     background-color: rgb(253, 253, 253);
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-    bottom: 50%;
     margin-left: 1%;
+    margin-bottom: 10%;
+    display: flex;
 }
 
 #contactForm {
     width: 100%;
+}
+
+
+/* .form-group {
+    width: 55%;
+}
+
+#exampleFormControlSelect1.form-control {
+    width: 55%;
+} */
+
+#book-btn {
+    background: #0ab04e;
+    border-color: #0ab04e;
+    width: 100%;
+    font-size: 16px;
+    height: 100%;
+}
+
+#exampleFormControlSelect1.form-group {
+    width: 55%;
 }
