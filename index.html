@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</head>
+
+<body>
+
+    <!--Home page-->
+    <div class="container-fluid" id="home" style="padding:0;">
+
+        <nav class="navbar bg-dark text-white">
+            <h1 style="font-family: Helvetica, sans-serif;"><span class="iconify" data-icon="medical-icon:i-health-services" data-inline="false" style="color: rgb(46, 189, 236); " data-width="200" data-height="100"></span>Robman's Physiotherapy</h1>
+
+            <div class="d-flex content-center ">
+                <nav class="navbar options" style="right:25%; font-size: 24px;">
+
+                    <li class="nav-item">
+                        <a style="background-color: #212529; color: rgb(46, 189, 236);" class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a style="background-color: #212529;  color: rgb(46, 189, 236); " class="nav-link" href="#aboutUs">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a style="background-color: #212529; color: rgb(46, 189, 236);" class="nav-link" href="#service">Services</a>
+                    </li>
+
+                </nav>
+
+            </div>
+
+        </nav>
+
+
+        <div class="panel" id="homePanel">
+            <img src="assets/helper.jpg" />
+            <div class="content" id="intromsg">
+                <h3 style="font-size: 32px; text-align: center;">PHYSIOTHERAPY</h3>
+                <br>
+                <p>Have you recently been involved in a traumatic experience? Do you always feel like your in pain? - we're ready to ease your pain.</p>
+                <a href="#aboutUs" style="text-decoration: none;"><button id="learn-MoreBtn">Learn More</button></a>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+    <!--About us page-->
+    <div class="container-fluid" id="aboutUs">
+
+        <h1 style="font-display: Helvetica, sans-serif; text-align: center; font-size: 55px;">About</h1>
+
+        <div class="panel" id="about">
+            <div class="content" id="aboutInformation">
+                <h3 style="font-size: 32px; text-align: center;">OUR MISSION</h3>
+                <p>We are the best clinic located on <b>1125 Colonel By Dr, Ottawa.</b> We are dedicated to provide the best possible physio treatment, here are our avalaible services:</p>
+            </div>
+            <img src="assets/rehab.jpg" />
+        </div>
+
+
+        <!--https://www.care2curephysiotherapy.com/?gclid=Cj0KCQjwweyFBhDvARIsAA67M73d3nfQ_ahuL20cWXA8Ytl5SDraPow3rfikddBeBPfhTGoxNi0RacIaAgN9EALw_wcB-->
+        <div style=" background-color: rgb(253, 253, 253);">
+            <h2 style="font-display: Helvetica, sans-serif; text-align: center;margin-bottom: 5%;">Services</h2>
+            <div class="row">
+                <div class="col-sm">
+                    <!--https://www.care2curephysiotherapy.com/-->
+                    <img src="assets/concussion.png">
+                    <p style="font-weight: 900; font-size: 22px; color: #0ab04e;">Concussion</p>
+                </div>
+
+                <div class="col-sm">
+                    <img src="assets/tapin.png">
+                    <p style="font-weight: 900; font-size: 22px;color: #0ab04e;">Massage</p>
+                </div>
+
+                <div class="col-sm">
+                    <img src="assets/tmj.png">
+                    <p style="font-weight: 900; font-size: 22px;color: #0ab04e;">TMJ</p>
+                </div>
+
+                <div class="col-sm">
+                    <img src="assets/schockwave.png">
+                    <p style="font-weight: 900; font-size: 22px;color: #0ab04e;">Schockwave</p>
+                </div>
+
+                <div class="col-sm">
+                    <img src="assets/foot.png">
+                    <p style="font-weight: 900; font-size: 22px;color: #0ab04e;">Custom Insoles</p>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="container-fluid" id="staff">
+        <h2 style="font-display: Helvetica, sans-serif; text-align: center;margin-bottom: 5%;">Meet our Staff</h2>
+        <div class="row">
+
+            <div class="col-md">
+                <img src="assets/doctor1.PNG">
+                <p style="font-weight: 900; font-size: 22px;"> <b>Doctor Sammy Birdadi</b> <br> asdhioasdfhoiasiodfoi asdjiofaosidfjio</p>
+            </div>
+
+            <div class="col-md">
+                <img src="assets/doctor2.PNG">
+                <p style="font-weight: 900; font-size: 22px;"><b>Doctor Ilnius Kalfoni</b> <br> asdhioasdfhoiasiodfoi asdjiofaosidfjio </p>
+            </div>
+
+            <div class="col-md">
+                <img src="assets/doctor3.PNG">
+                <p style="font-weight: 900; font-size: 22px;"><b>Doctor Patrick Barki</b> <br> asdhioasdfhoiasiodfoi asdjiofaosidfjio </p>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Services page-->
+    <div class="container-fluid" id="service">
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+    </div>
+
+</body>
+
+</html>

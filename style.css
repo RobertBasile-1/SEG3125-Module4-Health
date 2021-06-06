@@ -1,0 +1,130 @@
+.html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    background-color: rgb(253, 253, 253) !important;
+}
+
+.container-fluid {
+    /*Ensures every section is the height of the window*/
+    height: 100vh;
+    max-width: 100%;
+    min-height: 900px;
+    margin: 0;
+}
+
+#home {
+    /*Ensures every section is the height of the window*/
+    height: 100vh;
+    max-width: 100%;
+    min-height: 900px;
+    margin: 0;
+}
+
+#getStarted-btn {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    width: 15%;
+    height: 5%;
+}
+
+#homePanel.panel {
+    margin-top: 91px;
+}
+
+#about.panel {
+    margin-top: 137px;
+}
+
+#about.panel img {
+    width: 25%;
+    max-width: 25%;
+}
+
+.nav-item {
+    display: flex;
+}
+
+a.nav-link {
+    border-bottom: 1px solid;
+    font-size: 24px;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    display: block;
+}
+
+a.nav-link:hover a {
+    background-color: rgb(46, 189, 236);
+    color: white;
+}
+
+#title {
+    font-size: 32px;
+    font-family: Helvetica, sans-serif;
+}
+
+.panel {
+    display: flex;
+}
+
+.panel img {
+    width: 50%;
+    max-width: 50%;
+}
+
+#intromsg.content {
+    padding: 200px 90px;
+    width: 50%;
+    max-width: 50%;
+    text-align: center;
+    font-size: 22px;
+    align-items: center;
+    background-color: rgb(253, 253, 253);
+}
+
+#aboutInformation.content {
+    padding: 100px 100px;
+    width: 75%;
+    max-width: 75%;
+    text-align: center;
+    font-size: 22px;
+    align-items: center;
+    background-color: rgb(253, 253, 253);
+}
+
+#learn-MoreBtn {
+    padding: 17px 40px;
+    border: 1px solid;
+    font-display: Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    width: 50%;
+    max-width: 50%;
+    align-items: center;
+    margin-left: 25%;
+    display: block;
+    background-color: #ffff;
+    transition: 0.3s;
+}
+
+#learn-MoreBtn:hover {
+    background-color: rgb(46, 189, 236);
+}
+
+.col-sm {
+    text-align: center;
+    display: block;
+}
+
+.col-sm img {
+    margin-bottom: 10%;
+}
+
+.col-md {
+    margin-left: 5%;
+    display: flex;
+}
