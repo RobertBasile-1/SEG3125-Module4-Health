@@ -14,6 +14,25 @@
     margin: 0;
 }
 
+#aboutUs.container-fluid {
+    height: 100vh;
+    max-width: 100%;
+    min-height: 1200px;
+    margin: 0;
+}
+
+#warning {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: #ffffff;
+    size: 20px;
+    display: none;
+}
+
 #home {
     /*Ensures every section is the height of the window*/
     height: 100vh;
