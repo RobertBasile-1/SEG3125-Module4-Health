@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
     <link href="style.css" rel="stylesheet" type="text/css" />
@@ -11,12 +11,12 @@
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
 
-<body>
+<body style="overflow-x: hidden;">
 
     <!--Home page-->
-    <div class="container-fluid" id="home" style="padding:0;">
+    <div class="container-fluid" style="padding:0;">
 
-        <nav class="navbar bg-dark text-white">
+        <nav class="navbar bg-dark text-white" style="margin-bottom: 5%;">
             <h1 style="font-family: Helvetica, sans-serif;"><span class="iconify" data-icon="medical-icon:i-health-services" data-inline="false" style="color: rgb(46, 189, 236); " data-width="200" data-height="100"></span>Robman's Physiotherapy</h1>
 
             <div class="d-flex content-center ">
@@ -31,7 +31,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a style="background-color: #212529;  color: rgb(46, 189, 236); " class="nav-link" href="#">Services</a>
+                        <a style="background-color: #212529;  color: rgb(46, 189, 236); " class="nav-link" href="#service">Services</a>
                     </li>
 
                 </nav>
@@ -41,112 +41,174 @@
         </nav>
 
 
-        <div class="panel" id="homePanel">
-            <img src="assets/helper.jpg" />
-            <div class="content" id="intromsg">
+
+
+
+
+        <div class="row" style="margin-bottom: 15%;">
+
+            <div class="col-md">
+                <img src="assets/helper.jpg" />
+            </div>
+
+            <div class="col-sm p">
                 <h3 style="font-size: 32px; text-align: center;"><u>PHYSIOTHERAPY</u></h3>
-                <br>
                 <p style="font-size: 38px;">Have you recently been involved in a traumatic experience? Do you always feel like your in pain? - we're ready to ease your pain.</p>
                 <a href="#aboutUs" style="text-decoration: none;"><button id="learn-MoreBtn">Learn More</button></a>
             </div>
         </div>
 
-
-
-
-
     </div>
 
 
+
     <!--About us page-->
-    <div class="container-fluid" id="aboutUs">
+    <div id="aboutUs">
+        <div class="container-fluid">
 
-        <h1 style="margin-top:5%;margin-bottom:5%;font-display: Helvetica, sans-serif; text-align: center; font-size: 55px;">About</h1>
+            <h1 style="margin-top:5%;margin-bottom:5%;font-display: Helvetica, sans-serif; text-align: center; font-size: 55px;">About</h1>
 
-        <div class="panel" id="about">
-            <div class="content" id="aboutInformation">
-                <h3 style="font-size: 32px; text-align: center;"><u>OUR MISSION</u></h3>
-                <p style="font-size: 38px;">We are the best clinic located on <b>1125 Colonel By Dr, Ottawa.</b> We are dedicated to provide the best possible physio treatment, here are our avalaible services:</p>
+
+
+            <!--Our mission-->
+            <div class="row">
+                <div class="col-sm p">
+                    <h3 style="font-size: 32px; text-align: center;"><u>OUR MISSION</u></h3>
+                    <p style="font-size: 38px;">We are the best clinic located on <b>1125 Colonel By Dr, Ottawa.</b> We are dedicated to provide the best possible physio treatment</p>
+                </div>
+                <div class="col-md" style="margin-right: 2%;">
+                    <img src="assets/rehab.jpg" />
+                </div>
             </div>
-            <img src="assets/rehab.jpg" />
+
+            <h2 style=" font-size: 55px; font-display: Helvetica, sans-serif; text-align: center; margin-top:5%;margin-bottom: 5%;">Meet our Staff</h2>
+
+            <!--Doctor information-->
+            <div class="row" style="margin-top:5%;margin-bottom:5%; background-color: rgb(253, 253, 253);">
+
+                <div class="col-md" style="margin-left:0;">
+
+                    <img src="assets/doctor1.PNG" height="200px">
+
+                    <p style=" font-size: 22px;">
+                        <b style="font-size: 32px;">Doctor Sammy Birdadi</b> <br> Registered Physiotherapist who graduated from the University Of Ottawa and specializes mostly in shockwave therapy</p>
+                </div>
+
+                <div class="col-md">
+                    <img src="assets/doctor2.PNG" height="200px">
+                    <p style=" font-size: 22px;"><b style="font-size: 32px;">Doctor Ilnius Kalfoni</b> <br> Registered Physiotherapist who graduated from the University Of McGill and specializes mostly in concussion therapy </p>
+                </div>
+
+                <div class="col-md">
+                    <img src="assets/doctor3.PNG" height="200px">
+                    <p style=" font-size: 22px;"><b style="font-size: 32px;">Doctor Patrick Barki</b> <br> Registered Physiotherapist who graduated from the University Of Toronto and enjoys mostly focuses in on Massages and custom insoles creation</p>
+                </div>
+            </div>
+
         </div>
-
-        <h2 style=" font-size: 55px; font-display: Helvetica, sans-serif; text-align: center; margin-top:5%;margin-bottom: 5%;">Meet our Staff</h2>
-
-        <div class="row" style="margin-top:5%;margin-bottom:25%; background-color: rgb(253, 253, 253);">
-
-            <div class="col-md">
-
-                <img src="assets/doctor1.PNG" height="200px">
-
-                <p style=" font-size: 22px;">
-                    <b style="font-size: 32px;">Doctor Sammy Birdadi</b> <br> Registered Physiotherapist who graduated from the University Of Ottawa and specializes mostly in shockwave therapy</p>
-            </div>
-
-            <div class="col-md">
-                <img src="assets/doctor2.PNG" height="200px">
-                <p style=" font-size: 22px;"><b style="font-size: 32px;">Doctor Ilnius Kalfoni</b> <br> Registered Physiotherapist who graduated from the University Of McGill and specializes mostly in concussion therapy </p>
-            </div>
-
-            <div class="col-md">
-                <img src="assets/doctor3.PNG" height="200px">
-                <p style=" font-size: 22px;"><b style="font-size: 32px;">Doctor Patrick Barki</b> <br> Registered Physiotherapist who graduated from the University Of Toronto and enjoys mostly focuses in on Massages and custom insoles creation</p>
-            </div>
-        </div>
-
-
-
-
-
     </div>
 
 
 
     <!--Services page-->
-    <div class="container-fluid" id="service">
+    <div id="service" style="margin-bottom:15%;">
+        <div class="container-fluid">
 
 
-        <!--https://www.care2curephysiotherapy.com/?gclid=Cj0KCQjwweyFBhDvARIsAA67M73d3nfQ_ahuL20cWXA8Ytl5SDraPow3rfikddBeBPfhTGoxNi0RacIaAgN9EALw_wcB-->
-        <div style=" background-color: rgb(253, 253, 253);">
-            <h2 style=" font-size: 55px; font-display: Helvetica, sans-serif; text-align: center;margin-top:5%;margin-bottom: 5%;">Services</h2>
-            <div class="row" style="padding:14px 16px;">
-                <div class="col-sm">
-                    <!--https://www.care2curephysiotherapy.com/-->
-                    <img src="assets/concussion.png">
-                    <p style="font-weight: 900; font-size: 22px; color: #0ab04e;">Concussion</p>
-                    <p style="text-align: left;">Therapy involving the vestibular system the inner ear and its connection with the brain. Our proffessionals will do a precise assesment on full re habu</p>
+            <!--https://www.care2curephysiotherapy.com/?gclid=Cj0KCQjwweyFBhDvARIsAA67M73d3nfQ_ahuL20cWXA8Ytl5SDraPow3rfikddBeBPfhTGoxNi0RacIaAgN9EALw_wcB-->
+            <div style=" background-color: rgb(253, 253, 253);">
+                <h2 style=" font-size: 55px; font-display: Helvetica, sans-serif; text-align: center;margin-top:5%;margin-bottom: 5%;">Services</h2>
+                <div class="row" style="padding:14px 16px;">
+                    <div class="col-sm g">
+                        <!--https://www.care2curephysiotherapy.com/-->
+                        <img src="assets/concussion.png">
+                        <p style="font-weight: 900; font-size: 32px; color: #0ab04e;">Concussion</p>
+                        <p style="text-align: left; font-size: 20px;">Therapy involving the vestibular system the inner ear and its connection with the brain. Our proffessionals will do a precise assesment on full re habu</p>
+                    </div>
+
+                    <div class="col-sm g">
+                        <img src="assets/tapin.png">
+                        <p style="font-weight: 900; font-size: 32px;color: #0ab04e;">Massage</p>
+                        <p style="text-align: left; font-size: 20px;">Hands-on manipulation of the soft tissues to pin point specfically the muscles,joints and ligaments for quick relief</p>
+                    </div>
+
+                    <div class="col-sm g">
+                        <img src="assets/tmj.png">
+                        <p style="font-weight: 900; font-size: 32px;color: #0ab04e;">TMJ</p>
+                        <p style="text-align: left; font-size: 20px;">Ensuring that anatomic anomolies in the jaw can be corrected so that you can enjoy a healthier jaw</p>
+                    </div>
+
+                    <div class="col-sm g">
+                        <img src="assets/schockwave.png">
+                        <p style="font-weight: 900; font-size: 32px;color: #0ab04e;">Schockwave</p>
+
+                        <p style="text-align: left; font-size: 20px;">Top of the line equipment used for fast pain relief</p>
+                    </div>
+
+                    <div class="col-sm g" style="margin-right:0;">
+                        <img src="assets/foot.png">
+                        <p style="font-weight: 900; font-size: 32px;color: #0ab04e;">Custom Insoles</p>
+                        <p style="text-align: left; font-size: 20px;">Our top of the line proffessionals will be able to make precise assesments on your posture and various factors, to create a best suited custom insole</p>
+                    </div>
+
                 </div>
+            </div>
 
-                <div class="col-sm">
-                    <img src="assets/tapin.png">
-                    <p style="font-weight: 900; font-size: 22px;color: #0ab04e;">Massage</p>
-                    <p style="text-align: left;">Hands-on manipulation of the soft tissues to pin point specfically the muscles,joints and ligaments for quick relief</p>
-                </div>
 
-                <div class="col-sm">
-                    <img src="assets/tmj.png">
-                    <p style="font-weight: 900; font-size: 22px;color: #0ab04e;">TMJ</p>
-                    <p style="text-align: left;">Ensuring that anatomic anomolies in the jaw can be corrected so that you can enjoy a healthier jaw</p>
-                </div>
 
-                <div class="col-sm">
-                    <img src="assets/schockwave.png">
-                    <p style="font-weight: 900; font-size: 22px;color: #0ab04e;">Schockwave</p>
+        </div>
+    </div>
 
-                    <p style="text-align: left;">Top of the line equipment used for fast pain relief</p>
-                </div>
+    <!--Booking page-->
+    <div id="contactForm">
+        <div class="container-fluid">
 
-                <div class="col-sm">
-                    <img src="assets/foot.png">
-                    <p style="font-weight: 900; font-size: 22px;color: #0ab04e;">Custom Insoles</p>
-                    <p style="text-align: left;">Our top of the line proffessionals will be able to make precise assesments on your posture and various factors, to create a best suited custom insole</p>
+            <div class="row F">
+                <div class="col-sm F">
+                    <form>
+
+                        <div class="form-group">
+                            <label for="First_Name " class="textParTopic grey_text ">First Name</label>
+                            <input type="text" class=" textPar form-control" id="first_name" aria-describedby="firstName" placeholder="Enter First Name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="last_Name " class="textParTopic grey_text">Last Name</label>
+                            <input type="text" class=" textPar form-control" id="last_Name" placeholder="Enter Last Name">
+                        </div>
+
+
+                        <label for="exampleFormControlSelect1" class="textParTopic grey_text mt-3">What is your Appointment For</label>
+                        <select class="form-control textPar" id="exampleFormControlSelect1">
+                        <option>Shockwave Therapy</option>
+                        <option>Neurac Therapy</option>
+                        <option>RAPID Therapy</option>
+                        <option>ONDAMED</option>
+                        <option>Deep Oscillation Therapy</option>
+                    </select>
+
+                        <div class="form-group">
+                            <label for="dateAndTime " class="textParTopic grey_text">Appointment Date and Time</label>
+                            <input type="datetime-local" class=" textPar form-control" id="exampleInputEmail1" placeholder="Enter email">
+                        </div>
+
+
+
+
+                        <div class="form-group">
+                            <label for="email " class="textParTopic grey_text">Phone Number</label>
+                            <input type="tel" class=" textPar form-control" id="exampleInputEmail1" placeholder="Enter Phone Number">
+                        </div>
+
+
+
+                        <button id="" class=" mt-3 submitButton text-center textParTopic"> Book Appointment</button>
+                    </form>
                 </div>
 
             </div>
+
         </div>
-
-
-
     </div>
 
     <button type="button" id="warning" class="btn btn-warning">Back to Top</button>

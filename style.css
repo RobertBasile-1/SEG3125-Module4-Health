@@ -4,21 +4,14 @@
 
 .body {
     background-color: rgb(253, 253, 253) !important;
-}
-
-.container-fluid {
-    /*Ensures every section is the height of the window*/
-    height: 100vh;
-    max-width: 100%;
-    min-height: 900px;
-    margin: 0;
+    overflow-x: hidden;
 }
 
 #aboutUs.container-fluid {
-    height: 100vh;
+    /* height: 100vh;
     max-width: 100%;
     min-height: 1200px;
-    margin: 0;
+    margin: 0; */
 }
 
 #warning {
@@ -60,8 +53,8 @@
 }
 
 #about.panel img {
-    width: 25%;
-    max-width: 25%;
+    width: 30%;
+    max-width: 30%;
 }
 
 .nav-item {
@@ -105,10 +98,10 @@ a.nav-link:hover a {
     background-color: rgb(253, 253, 253);
 }
 
-#aboutInformation.content {
+.col-sm.p {
     padding: 100px 100px;
-    width: 75%;
-    max-width: 75%;
+    width: 65%;
+    max-width: 65%;
     text-align: center;
     font-size: 22px;
     align-items: center;
@@ -134,7 +127,7 @@ a.nav-link:hover a {
     background-color: rgb(46, 189, 236);
 }
 
-.col-sm {
+.col-sm.g {
     text-align: center;
     display: block;
     margin-right: 1%;
@@ -151,4 +144,21 @@ a.nav-link:hover a {
 .col-md {
     margin-left: 5%;
     display: flex;
+}
+
+.row.F {
+    padding: 14px 16px;
+    width: 50%;
+    max-width: 50%;
+    text-align: left;
+    font-size: 22px;
+    align-items: left;
+    background-color: rgb(253, 253, 253);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    bottom: 50%;
+    margin-left: 1%;
+}
+
+#contactForm {
+    width: 100%;
 }
