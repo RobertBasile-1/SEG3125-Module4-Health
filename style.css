@@ -188,3 +188,7 @@ a.nav-link:hover a {
 #companyInfo {
     background-color: #212529;
 }
+
+.p {
+    font-family: Helvetica, sans-serif;
+}
