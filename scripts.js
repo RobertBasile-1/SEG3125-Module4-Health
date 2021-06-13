@@ -20,4 +20,19 @@
              }, 200);
          });
      });
+
+     $(function() {
+         var prevScrollpos = window.pageYOffset;
+         $(window).scroll(function() {
+             var currentScrollPos = window.pageYOffset;
+             if (prevScrollpos > currentScrollPos) {
+                 $(".navbar.navbar-expand-md.bg-dark").css("top", "0");
+             } else {
+                 $(".navbar.navbar-expand-md.bg-dark").css("top", "-50px");
+             }
+             prevScrollpos = currentScrollPos;
+
+         });
+     });
+
  });

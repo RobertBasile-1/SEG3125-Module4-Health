@@ -7,13 +7,6 @@
     overflow-x: hidden;
 }
 
-#aboutUs.container-fluid {
-    /* height: 100vh;
-    max-width: 100%;
-    min-height: 1200px;
-    margin: 0; */
-}
-
 #warning {
     position: fixed;
     right: 20px;
@@ -55,23 +48,6 @@
 #about.panel img {
     width: 30%;
     max-width: 30%;
-}
-
-.nav-item {
-    display: flex;
-}
-
-a.nav-link {
-    border-bottom: 1px solid;
-    font-size: 24px;
-    font-family: Helvetica, sans-serif;
-    text-decoration: none;
-    display: block;
-}
-
-a.nav-link:hover a {
-    background-color: rgb(46, 189, 236);
-    color: white;
 }
 
 #title {
@@ -164,15 +140,6 @@ a.nav-link:hover a {
     width: 100%;
 }
 
-
-/* .form-group {
-    width: 55%;
-}
-
-#exampleFormControlSelect1.form-control {
-    width: 55%;
-} */
-
 #book-btn {
     background: #0ab04e;
     border-color: #0ab04e;
@@ -191,4 +158,22 @@ a.nav-link:hover a {
 
 .p {
     font-family: Helvetica, sans-serif;
+}
+
+#navbar-option:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#navbar-option {
+    font-size: 1.5em;
+}
+
+.navbar.navbar-expand-md.bg-dark {
+    transition: top 0.3s;
+    top: 0;
+}
+
+#navbar-options-div {
+    margin-right: 5%;
 }
